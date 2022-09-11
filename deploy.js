@@ -3,8 +3,8 @@ const Web3 = require('web3');
 const {abi, evm} = require('./compile');
 
 const provider = new HDWalletProvider(
-    'wealth gauge vacant roast drift bar easy figure heart region tourist melt',
-    'https://rinkeby.infura.io/v3/a6be8495fca349ea92501ac75f98357c'
+    'YOUR_OWN_12_WORDS',
+    'YOUR_RINKEBY_INFURA_URL'
 );
 
 const web3 = new Web3(provider);
